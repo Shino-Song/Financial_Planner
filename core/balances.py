@@ -11,6 +11,6 @@ def act_est_compare(actual_bal, estimate_bal):
 def report(actual_bal, estimate_bal):
     difference = act_est_compare(actual_bal, estimate_bal)
     if difference != 0:
-        return (f"balance not accurate. Please review accounting! Difference is {difference}")
+        return (f"balance not accurate. Please review accounting! Difference is {difference:.2f}")
     else:
         return "All is well in the world."
