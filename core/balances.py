@@ -1,24 +1,24 @@
-def actual():
-    act_balance = 100
+def actual(act):
+    act_balance = act
     return act_balance
 
-def estimate():
-    est_balance = 10
+def estimate(est):
+    est_balance = est
     return est_balance
 
-def act_est_compare():
-    actual_bal = actual()
-    estimate_bal = estimate()
+def act_est_compare(actual_bal, estimate_bal):
     difference = actual_bal - estimate_bal
     return difference
     
-def report():
-    difference = act_est_compare()
+def report(actual_bal, estimate_bal):
+    difference = act_est_compare(actual_bal, estimate_bal)
     if difference != 0:
-        return print(f"balance not accurate. Please review accounting! Difference is {difference}")
+        return (f"balance not accurate. Please review accounting! Difference is {difference}")
     else:
-        return print("All is well in the world.")
+        return "All is well in the world."
 
+act_input = actual(10)
+est_input = estimate(100)
 
-report = report()
-print(f"{report}")
+report_result = report(act_input, est_input)
+print(report_result)
