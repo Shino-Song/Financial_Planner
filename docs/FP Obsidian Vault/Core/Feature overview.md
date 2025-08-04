@@ -1,12 +1,10 @@
-1: Overall
+1: Balance - View your actual current and smart projected balances based on budgets, estimates, and past recurring expenses. Validate actual balance against recorded expenses for requested financial period.
 
-1: Actual balance (H) - This is a field that displays your actual balance and is manually inputted.
+2: Income - View and process your actual and projected incomes. indicates changes in income over time with separate fields for gross, net, and deductions. Separate listing for multiple income sources. Shows projected income based on historical data and/or manually entered information (eg. hourly rates, average hours worked, salary, etc...). Indicates special income (eg. bonuses, commissions, etc...).
 
-2: Calculated balance (H) - This is a field that takes the actual balance of the previous month and the math of income and expenses to display what the actual balance should be.
+3: Cash/non-banked assets option - Separate field for income and expense for cash and other non-banked assets (eg. crypto, Forex, stocks, etc...). Smart indication of active value for non-cash assets (eg. stock/crypto values, Forex exchange rates, etc...).
 
-3: Actual/Calculated balance agreement indication (H) - States if the Actual and Calculated balances are in agreement or disagreement to indicate if there is a clerical error in the data entry.
-
-4: Total estimated/actual income (H) - Fields that take projected and actual gross/net income reports to show what you can expect to have in an requested time period. Can take multiple sources of income fields to keep track of different income sources.
+~~
 
 5: Total estimated/actual income agreement indication (H) - This compares the total actual and estimated incomes and individual income sources to determine trends of what you estimated and actually received.
 
