@@ -15,7 +15,7 @@
               "state": {
                 "file": "Visual Overview.canvas",
                 "viewState": {
-                  "x": -21.261378371630855,
+                  "x": 71.73862162836915,
                   "y": 27.000641768962353,
                   "zoom": 0
                 }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core/Features.md",
+                "file": "Core/Feature overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Features"
+              "title": "Feature overview"
             }
           }
         ]
@@ -191,11 +191,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "924734f29085f3f9",
+  "active": "68afd53d89c0ad8c",
   "lastOpenFiles": [
-    "Core",
-    "Core/Features.md",
     "Visual Overview.canvas",
+    "Core/Feature overview.md",
+    "Core",
     "Welcome.md"
   ]
 }
