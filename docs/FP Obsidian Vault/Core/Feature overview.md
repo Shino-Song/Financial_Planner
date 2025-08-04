@@ -1,19 +1,15 @@
 1: Balance - View your actual current and smart projected balances based on budgets, estimates, and past recurring expenses. Validate actual balance against recorded expenses for requested financial period.
 
-2: Income - View and process your actual and projected incomes. indicates changes in income over time with separate fields for gross, net, and deductions. Separate listing for multiple income sources. Shows projected income based on historical data and/or manually entered information (eg. hourly rates, average hours worked, salary, etc...). Indicates special income (eg. bonuses, commissions, etc...).
+2: Income - View and process your actual and projected incomes. indicates changes in income over time with separate fields for gross, net, and deductions. Separate listing for multiple income sources. Shows projected income based on historical data and/or manually entered information (eg. hourly rates, average hours worked, salary, etc...). Indicates special income (eg. bonuses, commissions, etc...). Shows differences between projected and actual incomes to indicate higher and lower income months, and month over month differences.
 
 3: Cash/non-banked assets option - Separate field for income and expense for cash and other non-banked assets (eg. crypto, Forex, stocks, etc...). Smart indication of active value for non-cash assets (eg. stock/crypto values, Forex exchange rates, etc...).
 
-~~
+4: Detailed deductions - Tied in with item 2, this gives a generalized actual deductions as well as detailed actual and estimated deductions. Includes fields for customization to estimate deductions of future paychecks and for what should be left aside if self-employed or otherwise receiving income that isn't automatically taxed.
 
-5: Total estimated/actual income agreement indication (H) - This compares the total actual and estimated incomes and individual income sources to determine trends of what you estimated and actually received.
+5: Detailed expenses - This is a detailed and categorized expense sheet to better organize and understand the expenses. Broken down into primary categories (eg. Utilities, food, phone, internet, entertainment, etc...) and sub categories (eg. fast food, vacation, business trip, etc...) and itemized expenses. This will be manually enterable as well as automatically parsed from bank/credit card statements provided (will always be kept local, never sent off computer).
 
-6: Deductions estimation (H) - a preset calculation to run various dedications from the Total estimated/actual income entries (eg. taxes, insurance, etc...). This should be items that are taken out of the Gross income before it hits your bank account or an amount that should be set aside if items are not automatically deducted.
+6: Bank/credit card statement organization - stores and organizes all financial statements for data entry and archiving in an easy to find manner. Searchable by expenses, dates, and statement type.
 
-7: Categorized expenses (H) - Separate customizable sections of expense types (eg. utilities, food, phone/internet/, fun, etc...). This is further broken down into individual expenses that can be projected, manually added, or automatically pulled from bank/credit card statements and organized locally (never sent off of your computer).
+7: Savings planner - Dynamically create a savings plan based on your income and expenses. Provides timelines and intelligently updates based on actualized data.
 
-8: Bank/credit card statement organization (L) - A system that reads income/expense reports from your bank and credit card statements and automatically sorts them into the appropriate categories with time stamps and details as provided.
-
-9: Savings planner (L) - A tool to create a dynamic budgeting plan for a savings goal.
-
-10: Bank integration (L) - A tool that can integrate with your bank/credit card to automatically pull data and update the relevant fields at set intervals (will never send data out to other places. Low priority until I know how to ensure the highest level privacy).
+8: Bank integration - (requires more research to see if possible. Currently just a "hope" of sorts) A tool that integrates with your bank/credit card to automatically pull data and update relevant fields at set intervals. Regardless of if it can be done, security will be the utmost importance, so if it can't be done securely, it might be forsaken.
