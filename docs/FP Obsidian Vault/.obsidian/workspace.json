@@ -11,17 +11,14 @@
             "id": "676c71972a47ac96",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Visual Overview.canvas",
-                "viewState": {
-                  "x": 64.73862162836915,
-                  "y": -58.99935823103766,
-                  "zoom": 0
-                }
+                "file": "Core/deduction_logic.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Visual Overview"
+              "icon": "lucide-file",
+              "title": "deduction_logic"
             }
           }
         ]
@@ -36,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How This Documentation Works.md",
+                "file": "Core/Feature overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How This Documentation Works"
+              "title": "Feature overview"
             }
           }
         ]
@@ -193,9 +190,16 @@
   },
   "active": "676c71972a47ac96",
   "lastOpenFiles": [
-    "How This Documentation Works.md",
+    "Core/balance_logic.md",
+    "Core/expense_logic.md",
+    "Core/deduction_logic.md",
+    "Core/expense_data",
     "Core/Feature overview.md",
     "Visual Overview.canvas",
+    "Core/non_banked_logic.md",
+    "Core/main.md",
+    "Core/income_logic.md",
+    "How This Documentation Works.md",
     "Core",
     "Welcome.md"
   ]
