@@ -1,0 +1,1 @@
+This file  is designed to take information from the various budgeted expenses (eg. food, subscriptions, rent, medical, etc...) and process them against the actual and estimated incomes based on what is requested.
