@@ -1,8 +1,8 @@
 class budget:
     def __init__(self, estimate, actual)
-        self.__estimate = estimate
-        self.__actual = actual
-        self.__difference = 0
+        self.__estimate = float(estimate)
+        self.__actual = float(actual)
+        self.__difference = float
 
 class expense(budget):
     def __init__(self)
