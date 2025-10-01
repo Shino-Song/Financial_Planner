@@ -1,5 +1,6 @@
-from core.balances import *
-#from core.budget_processing import *
+#from core.balances import *
+from core.budget_processing import *
+from core.report import *
 
 print("Hello, this is the Song Financial Planner. I hope you are having a great day!")
 print("To start, I will ask you a couple simple questions.")
@@ -19,10 +20,12 @@ while True:
     else:
         print("Let's try again.\n")
 
-act_transfer = actual(act_input)
-est_transfer = estimate(est_input)
+act_transfer = budget()
+est_transfer = budget()
+transfer = expense("test", est_input, act_input)
 
-report_result = report(act_transfer, est_transfer)
+#report_result = report(act_transfer, est_transfer)
+report_result = report(transfer)
 
 print("\nThank you for using the Song Financial Planner input test!")
 print(f"Your estimated balance was {est_transfer:.2f} and your actual balance was {act_transfer:.2f}.")
