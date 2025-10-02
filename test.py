@@ -20,14 +20,16 @@ while True:
     else:
         print("Let's try again.\n")
 
-act_transfer = budget()
-est_transfer = budget()
+#budget_transfer = budget("test1", )
 transfer = expense("test", est_input, act_input)
+
+act = act_input
+est = est_input
 
 #report_result = report(act_transfer, est_transfer)
 report_result = report(transfer)
 
 print("\nThank you for using the Song Financial Planner input test!")
-print(f"Your estimated balance was {est_transfer:.2f} and your actual balance was {act_transfer:.2f}.")
+print(f"Your estimated balance was {est:.2f} and your actual balance was {act:.2f}.")
 print(f"The following is your balance report.\n{report_result}")
 exit()
