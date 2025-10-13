@@ -30,6 +30,6 @@ est = est_input
 report_result = report(transfer)
 
 print("\nThank you for using the Song Financial Planner input test!")
-print(f"Your estimated balance was {est:.2f} and your actual balance was {act:.2f}.")
+print(f"Your estimated balance was {est} and your actual balance was {act}.")
 print(f"The following is your balance report.\n{report_result}")
 exit()
