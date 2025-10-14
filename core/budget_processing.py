@@ -2,7 +2,7 @@ class budget:
     def __init__(self, name, estimate, actual):
         self.__estimate = float(estimate)
         self.__actual = float(actual)
-        self.__difference = float
+        self.__difference = 0
         self.__name = (name)
     
     def diff_calc(self):
