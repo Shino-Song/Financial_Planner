@@ -4,9 +4,10 @@ class budget:
         self.__actual = float(actual)
         self.__difference = 0
         self.__name = (name)
-    
+        
     def diff_calc(self):
         self.__difference = self.__actual - self.__estimate
+        return self.__difference
         
 
 class expense(budget):

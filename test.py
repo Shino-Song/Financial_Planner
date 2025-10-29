@@ -27,7 +27,7 @@ act = act_input
 est = est_input
 
 #report_result = report(act_transfer, est_transfer)
-report_result = report(transfer)
+report_result = report()
 
 print("\nThank you for using the Song Financial Planner input test!")
 print(f"Your estimated balance was {est} and your actual balance was {act}.")
