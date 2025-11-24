@@ -1,0 +1,1 @@
+The concept of "quartermaster.py" is to serve as the sole module responsible for creation, modification, and access to the financial database files. The database will contain all the stored information for fiscal years as defined by the user.
