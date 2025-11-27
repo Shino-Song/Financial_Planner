@@ -4,3 +4,5 @@ def report(difference):
     else:
         return "All is well in the world."
     return (f"This is a test {difference}")
+
+#prepare for taking data and parsing the hell out of it.
